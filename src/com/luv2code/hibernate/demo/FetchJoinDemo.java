@@ -47,8 +47,7 @@ public class FetchJoinDemo {
 			Instructor tempInstructor = query.getSingleResult();
 			
 			System.out.println("luv2code: Instructor: " + tempInstructor);
-			
-						
+									
 			// commit transaction
 			session.getTransaction().commit();
 			
